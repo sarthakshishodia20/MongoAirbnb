@@ -1,0 +1,195 @@
+/* body{
+    background-color: pink;
+} */
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-color: black !important; */
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* navbar */
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+
+}
+.nav-link{
+    color:#222222 !important;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color:#222222;
+    cursor:pointer;
+}
+.f-info-links{
+    width: 100%;
+}
+.f-info-socials{
+    width: 100%;
+    font-size: 1.3rem;
+    /* margin-right: 1rem; */
+}
+.f-info-socials i{
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(187, 187, 187);
+    align-items:space-evenly;
+}
+/* cards */
+.card{
+    border:none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit:cover !important;
+}
+.card-body{
+    padding: 0;
+
+}
+.card-text{
+    font-weight: 400!important;
+    font-family: cursive!important;
+}
+.listing-link{
+    text-decoration: none;
+}
+.listing-link p{
+    color: black;
+}
+/* card effect */
+.card-img-overlay{
+    opacity:0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* Add Page new */
+/* margin for new forms */
+.mb-2{
+    margin: 1rem;
+}
+.btn-dark{
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+#newList{
+    color: black;;
+    margin: 2rem;
+    font-size: 30px;
+}
+#Add{
+    background-color: #fe424d;
+    font-weight: 500;
+    border:2px solid #fe424d;
+}
+
+#Add:hover{
+    background-color: white;
+    color: #fe424d;
+    border:2px solid #fe424d;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+/* Edit page */
+#Edit{
+    background-color: #fe424d;
+    font-weight: 500;
+    border:2px solid #fe424d;
+}
+#heade{
+    margin-left: 9rem;
+}
+#Edit:hover{
+    background-color: white;
+    color: #fe424d;
+    border:2px solid #fe424d;
+    cursor: pointer;
+    font-weight: 500;
+}
+/* SHow page */
+.show-img{
+    height: 30vh;
+    /* width: ; */
+}
+#Editlink{
+    background-color: #fe424d;
+    border:2px solid rgb(247, 24, 24);
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 23px;
+    border-radius:5px;
+    
+}
+#Editlink:hover{
+    background-color: white;
+    border:2px solid  #fe424d;
+    color: #fe424d;
+    font-weight: 400;
+    cursor: pointer;
+}
+#Deletelink{
+    margin-top: 1rem;
+    font-size: 22px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+#Deletelink:hover{
+    color: black;
+    border:1px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 22px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#review{
+    border:1px solid black !important;
+}
+/* Map */
+#map {
+    height: 400px;
+    width: 800px;
+    
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border:2px solid black;
+    border-radius: 10px;
+ }
